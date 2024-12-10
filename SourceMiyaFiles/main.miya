@@ -1,0 +1,15 @@
+﻿VAR a, b, c : LOGICAL;
+BEGIN
+    READ(a);
+    IF a THEN
+        READ(a, b, c);
+    ELSE
+        READ(b);
+    END_IF;
+    
+    c = a .IMP. (a .OR. .NOT. 1);
+    WRITE(a, b, c);
+    
+    a = 1;
+    WRITE(a);
+END

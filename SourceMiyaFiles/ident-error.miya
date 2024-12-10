@@ -1,0 +1,15 @@
+﻿VAR kawaiiiiiiiiiiiiii, b, c : LOGICAL;
+BEGIN
+    READ(kawaiiiiiiiiiiiiii);
+    IF kawaiiiiiiiiiiiiii THEN
+        READ(kawaiiiiiiiiiiiiii, b, c);
+    ELSE
+        READ(b);
+    END_IF;
+    
+    c = kawaiiiiiiiiiiiiii .IMP. (kawaiiiiiiiiiiiiii .OR. .NOT. 1);
+    WRITE(kawaiiiiiiiiiiiiii, b, c);
+    
+    kawaiiiiiiiiiiiiii = 1;
+    WRITE(kawaiiiiiiiiiiiiii);
+END
